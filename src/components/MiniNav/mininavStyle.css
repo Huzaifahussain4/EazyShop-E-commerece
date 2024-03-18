@@ -1,0 +1,19 @@
+.miniNavContainer {
+    border-right: 1px solid #808080;
+}
+
+.miniNavUl {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.miniNavLi {
+    margin-bottom: 20px;
+}
+
+.navLink{
+    text-decoration: none;
+    color: black;
+}

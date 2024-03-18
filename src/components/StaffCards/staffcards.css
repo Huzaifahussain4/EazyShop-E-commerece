@@ -1,0 +1,33 @@
+.staffCardContainer{
+    width: 350px;
+    margin: 0 25px;
+    /* background-color: aqua; */
+}
+
+.staffImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    background-color: #F5F5F5;
+}
+
+.staffTitle{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.staffDesignation{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.staffSocialMediaIcons{
+    display: flex;
+    align-items: center;
+}
+
+.socialMediaIcon{
+    padding: 10px 15px 10px 0;
+}

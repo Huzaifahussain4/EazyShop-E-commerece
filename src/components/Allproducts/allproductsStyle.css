@@ -1,0 +1,14 @@
+.allProductsConatainer{
+    margin: 150px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.allProductsViewdiv{
+    width: 80%;
+    padding-bottom: 50px;
+    font-family: 'Poppins', sans-serif;
+
+}

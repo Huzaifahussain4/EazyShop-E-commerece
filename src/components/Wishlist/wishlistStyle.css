@@ -1,0 +1,31 @@
+.wishListContainer {
+    margin: 150px 0;
+    /* display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column; */
+}
+
+.wishListHeading {
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    margin-left: 10%;
+    margin-bottom: 50px;
+    /* display: flex; */
+}
+
+.rightSideNavOptionBtn {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    border: none;
+    background-color: transparent;
+    margin: 0;
+    padding: 10px;
+    color: #000000;
+    cursor: pointer;
+    text-align: right;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+
+}

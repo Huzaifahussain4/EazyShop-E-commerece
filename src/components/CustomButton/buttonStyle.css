@@ -1,0 +1,21 @@
+.customBtn {
+    /* width: 80px; */
+    padding: 18px 50px;
+    background-color: #DB4444;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    /* margin-top: 20px; */
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.customBtn:hover{
+    background-color: #d87373;
+}
+
+.customBtn:focus{
+    background-color: #a83030;
+}

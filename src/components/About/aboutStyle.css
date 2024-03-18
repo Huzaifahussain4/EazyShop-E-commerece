@@ -1,0 +1,126 @@
+.mainContainer {
+    margin: 100px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.firstConatiner {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.txtContainer {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.txt2ndConatiner {
+    width: 70%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.headingDiv {
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.paragraphDiv {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    /* font-size: 50px; */
+    /* font-weight: 600; */
+    margin-bottom: 20px;
+
+}
+
+.imgContainer {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.rightSideIamge {
+    width: 90%;
+}
+
+.cardsContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 0 10px; */
+}
+
+.teamContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.servicesContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px 0;
+}
+
+@media (max-width: 500px) {
+    .imgContainer {
+        display: none;
+    }
+
+    .firstConatiner{
+        margin-top: 150px !important;
+    }
+
+    .txtContainer{
+        width: 100%;
+    }
+
+    .headingDiv{
+        width: 100%;
+        text-align: center;
+    }
+
+    .paragraphDiv{
+        text-align: center;
+    }
+    
+    .cardsContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 150px 0;
+    }
+
+    .cardContainer{
+        margin: 20px 15px;
+    }
+
+    .teamContainer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .staffCardContainer{
+        margin: 20px 0 !important;
+    }
+
+    .servicesContainer {
+        display: flex;
+        flex-direction: column;
+    }
+}

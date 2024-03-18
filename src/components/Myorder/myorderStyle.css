@@ -1,0 +1,52 @@
+/* 
+.myOrderContainer{
+    margin: 150px 0;
+}
+
+.orderProductContainer{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 50px 0;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 20px 0;
+}
+
+.orderProductImageDiv{
+    width: fit-content;
+}
+
+.orderTitleDesDiv{
+    width: 50%;
+}
+
+.orderProductDes{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #7b7b7b;
+    margin-top: 10px;
+}
+
+.orderCheckMark{
+    width: fit-content;
+}
+
+.checkMark{
+    width: 40px;
+} */
+
+@media (max-width: 500px) {
+    .orderProductContainer{
+        width: 95%;
+        margin: 15px 0;
+    }
+
+    .orderProductDes{
+        display: none;
+    }
+
+    .checkMark {
+        width: 30px;
+    }
+}

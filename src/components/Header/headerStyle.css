@@ -1,0 +1,326 @@
+.headerContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    height: 80px;
+    border-bottom: 2px solid rgb(214, 214, 214);
+    background-color: #FFF;
+    margin-bottom: 10px;
+}
+
+.headerUl {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    /* margin: 35px 0px 10px 0px; */
+    padding: 0;
+    margin: 0;
+    width: 100%;
+
+}
+
+.active_class {
+    /* text-decoration: underline; */
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+    /* padding-bottom: 2px; */
+    border-bottom: 2px solid black;
+}
+
+.linksLi {
+    list-style-type: none;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linksName {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+    /* width: 100px; */
+    /* margin: 5px; */
+}
+
+.navLinksDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 0px 10%; */
+}
+
+.thirdDivContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titleNavLink{
+    text-decoration: none;
+    color: black;
+}
+
+.titleHeading {
+    margin: 0;
+    /* display: flex;
+    align-items: start;
+    justify-content: space-between; */
+    font-family: 'Poppins', sans-serif;
+}
+
+/* .titleHeadinLi{
+    margin-right: 200px;
+} */
+
+.searchDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    padding: 0 20px;
+
+}
+
+.searchField {
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #F5F5F5;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.searchIcon {
+    /* padding: 6px; */
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+.navIcon {
+    padding: 0px 5px;
+}
+
+.profileBtn {
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border-radius: 100%; */
+    width: fit-content;
+    width: 42px;
+    height: 42px;
+    padding: 0;
+    margin: 0;
+    /* height: 44px; */
+    background-color: #FFF;
+}
+
+.profileBtnIcon {
+    transition: 0.3s;
+    /* border: 50%; */
+    /* background-color: #FFF; */
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.profileBtnIcon:hover {
+    padding: 5px;
+    background-color: #db4444;
+}
+
+.dropdownContainer {
+    z-index: 1000;
+    position: absolute;
+    width: 250px;
+    top: 80px;
+    background-color: rgba(0, 0, 0, 0.40);
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.optionBtnConatiner {
+    width: 100%;
+    margin: 5px;
+    /* padding: 10px; */
+}
+
+.optionBtnConatiner:hover {
+    background-color: rgba(0, 0, 0, 0.50);
+    border-radius: 3px;
+
+}
+
+.optionBtn {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    border: none;
+    background-color: transparent;
+    margin: 0;
+    padding: 10px;
+    color: #FFF;
+    cursor: pointer;
+    text-align: right;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.profileDwopdown {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+}
+
+.secNavBar {
+    display: none;
+}
+
+.wishListBtn {
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border-radius: 100%; */
+    width: 42px;
+    height: 42px;
+    padding: 0;
+    margin: 0;
+    height: 44px;
+    background-color: #FFF;
+}
+
+.wishListBtnIcon {
+    transition: 0.3s;
+    /* border: 50%; */
+    /* background-color: #FFF; */
+    /* padding: 5px; */
+    border-radius: 20px;
+    padding: 5px;
+
+}
+
+.wishListBtnIcon:hover {
+    padding: 5px;
+    /* width: 30px;
+    height: 30px; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    background-color: #db4444;
+    /* border: none; */
+}
+
+@media (max-width: 500px) {
+    .headerContainer {
+        display: none;
+    }
+
+    /* .searchDiv {
+        display: none;
+    } */
+    /* 
+    .headerUl {
+        display: none;
+    } */
+
+    .secNavBar {
+        width: 500px;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+        border-bottom: 2px solid rgb(214, 214, 214);
+        background-color: #FFF;
+
+    }
+
+    .SideNavbarContainer {
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .open {
+        transform: translateX(0);
+    }
+
+    .closed {
+        transform: translateX(-20px);
+        /* Adjust as per your sidebar width */
+    }
+
+    .phoneNavSecClass {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* height: 100%; */
+        position: absolute;
+        top: 10;
+        left: 0;
+        border-radius: 0 5px 5px 0;
+
+    }
+
+    .secNavOptions {
+        width: 100%;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .miniNavLink {
+        margin: 20px;
+        color: #FFF;
+    }
+
+    .sideNavBtnIcon {
+        font-size: 30px;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        margin-left: 10px;
+    }
+
+    .sideNavTitle {
+        width: 100%;
+        text-align: center;
+        /* margin: 20px 10px 20px 0; */
+        font-size: 40px;
+        font-weight: 700;
+        font-family: 'Poppins', sans-serif;
+    }
+}
+
+.myOrdeBadgeDiv {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    width: 70%;
+}

@@ -1,0 +1,96 @@
+.userProfileContainer {
+    width: 100%;
+    margin: 150px 0;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.userProfileMainContainer{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 5px;
+}
+
+.profileTitle {
+    width: 100%;
+    font-size: 25px;
+    font-weight: 600;
+    color: #db4444;
+    margin: 0 0 40px 0;
+    padding-left: 20%;
+}
+
+.profilefirstConatiner {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.profileInput {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 15px 0;
+}
+
+.profileInputField {
+    background-color: #f5f5f5;
+    border: none;
+    padding: 15px 10px;
+    border-radius: 5px;
+    outline: none;
+    margin: 10px 0;
+    font-family: 'Poppins', sans-serif;
+    color: #7b7b7b;
+}
+
+.profilePasswordConatiner {
+    width: 100%;
+    /* padding-left: 21.5%; */
+}
+
+.passwordFieldDiv{
+    padding-left: 10%;
+}
+
+.passwordField{
+    margin: 15px 0;
+}
+
+.formSubBtn{
+    margin-top: 20px;
+}
+
+@media (max-width: 500px) {
+    .userProfileMainContainer{
+        width: 80%;
+        padding: 50px 30px;
+    }
+
+    .profilefirstConatiner{
+        display: flex;
+        flex-direction: column;    
+    }
+
+    .profileInput{
+        width: 100%;
+    }
+
+    .passwordFieldDiv{
+        padding: 0;
+    }
+
+    .profileTitle{
+        padding: 0;
+    }
+
+}

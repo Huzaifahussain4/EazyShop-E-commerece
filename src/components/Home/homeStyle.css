@@ -1,0 +1,361 @@
+.parentContainer {
+    width: 100%;
+
+    margin: 100px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.siderBanerContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carouselBannerContainer {
+    width: 60%;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.siderContainer {
+    width: 19%;
+    margin-right: 20px;
+}
+
+.productFirstContainer {
+    width: 100%;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; */
+    margin-bottom: 50px;
+}
+
+.rectangleHeading {
+    margin: 100px 0 20px 0;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.rectangleTitle {
+    text-align: left;
+    color: #db4444;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.salesDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    text-align: start;
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+.btnConatiner {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid rgb(214, 214, 214);
+    padding-bottom: 100px;
+}
+
+.filterBtnContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.secBannerContainer {
+    width: 80%;
+    margin-top: 50px;
+}
+
+.secBanner {
+    width: 100%;
+}
+
+.sixthSectionContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sixthSecFirstContainer {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.firstIamgeDiv {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    background-color: #000000;
+    margin-right: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.firstImage {
+    width: 80%;
+}
+
+.secIamgeConatiner {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secImageDiv {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-color: #0c0c0c;
+    border-radius: 5px;
+    overflow: hidden;
+
+
+}
+
+.secIamge {
+    width: 70%;
+    border-radius: 5px;
+
+}
+
+.thirdImageContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.thirdIamgeDiv {
+    width: 50%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0c0c0c;
+    border-radius: 5px;
+    overflow: hidden;
+
+    margin-top: 20px;
+}
+
+.thirdImage {
+    width: 70%;
+}
+
+.hoverDiv {
+    position: absolute;
+    width: 100%;
+    /* background-color: rgba(0, 0, 0, 0.164); */
+    color: #fff;
+    bottom: 0px;
+    padding: 20px;
+}
+
+.containerTitle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    /* margin-bottom: 10px; */
+    padding: 10px;
+
+}
+
+.containerDis {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    /* margin-bottom: 10px; */
+    padding-left: 10px;
+    width: 250px;
+}
+
+.containerBtn {
+    font-family: 'Poppins', sans-serif;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-bottom: 2px solid gray;
+    padding: 0;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.hoveAnotherClass {
+    /* margin-left: 50px !important; */
+    width: 480px;
+}
+
+
+.servicesHomeContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    margin: 150px 0;
+}
+
+
+
+
+@media (max-width: 500px) {
+    body {
+        font-size: 14px;
+    }
+
+    .parentContainer {
+        width: 100%;
+        margin: 0 auto;
+
+    }
+
+    .siderBanerContainer {
+        width: 100%;
+        margin-top: 120px;
+        display: inline;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .siderContainer {
+        display: none;
+    }
+
+    .carouselBannerContainer {
+        width: 95%;
+    }
+
+    .rectangleHeading {
+        width: 95%;
+    }
+
+    .secBannerContainer {
+        width: 95%;
+    }
+
+    .btnConatiner {
+        width: 95%;
+
+    }
+
+    .salesDiv {
+        width: 95%;
+        font-size: 25px;
+    }
+
+    .sixthSecFirstContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .firstIamgeDiv {
+        width: 95%;
+        height: 250px;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+
+    .firstImage {
+        width: 52%;
+    }
+
+    .secIamgeConatiner {
+        height: 850px;
+        top: 0;
+    }
+
+    .secImageDiv {
+        width: 95%;
+        height: 250px;
+        margin: 10px;
+    }
+
+    .secIamge {
+        width: 80%;
+    }
+
+    .thirdImageContainer {
+        height: 550px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .thirdIamgeDiv {
+        margin: 10px;
+        width: 95%;
+        height: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+
+    .thirdImage{
+        width: 40%;
+        margin-right: 20px;
+    }
+
+    .servicesHomeContainer {
+        margin: 100px 0;
+    }
+
+    .servicesHomeContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 150px 0;
+    }
+
+    .containerTitle{
+        margin-left: 30px;
+        font-size: 20px;
+    }
+
+    .containerDis{
+        margin-left: 30px;
+    }
+
+    .containerBtn{
+        margin-left: 40px;
+    }
+}

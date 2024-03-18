@@ -1,0 +1,550 @@
+.containerParent {
+    /* width: 700px;
+    overflow-x: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+    width: 100%;
+    overflow-x: hidden;
+    /* Hide the horizontal scrollbar */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scroll-behavior: smooth;
+    /* Enable smooth scrolling */
+    -webkit-overflow-scrolling: touch;
+}
+
+.productCardContainer {
+    width: 300px;
+
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    /* margin: 10px; */
+    /* flex: 1; */
+    /* flex: 0 0 auto; */
+    /* Ensure each card has fixed width */
+    /* margin: 0 10px; */
+    /* Add spacing between cards */
+    scroll-snap-align: start;
+}
+
+.slider-container {
+    display: flex;
+    flex-direction: column;
+    /* Set flex-direction to column for vertical slides */
+}
+
+.imageDiv {
+    width: 300px;
+    overflow: hidden;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.productIamge {
+    max-width: 60%;
+    background-color: transparent;
+}
+
+.swiperSlideClass {
+    min-width: 350px;
+    width: auto;
+    max-width: 380px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blue; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.swiper-wrapper {
+    /* width: 50% !important; */
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.titleDiv {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: left;
+    margin: 10px 0;
+}
+
+.priceDiv {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #db4444;
+    margin: 10px 0;
+}
+
+.ratingContainer {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.ratingDiv {
+    font-size: 13px;
+    color: #808080;
+    margin-left: 10px;
+}
+
+.hoverBtn {
+    position: absolute;
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    bottom: 0px;
+    /* top: 50%; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    padding: 15px 20px;
+    border: none;
+    border-end-end-radius: 5px;
+    border-end-start-radius: 5px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.quickViewDiv {
+    position: absolute;
+    top: 50px;
+    right: 5px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.favIconDiv {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainCardContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardContainerParent {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+}
+
+.secClassProduct {
+    margin: 0 30px 50px 30px;
+}
+
+.loaderContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cartTableMain {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cartTableHeading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 10px;
+
+}
+
+.cartTableParent {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cartTableContainer {
+    width: 80%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+
+.cartTableImageDiv {
+    width: 21%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    padding: 10px 0 10px 10px;
+}
+
+.cartTableImage {
+    width: 20%;
+    margin-right: 10px;
+}
+
+.tavleheadingDiv {
+    width: 20%;
+    padding: 20px 0 20px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.cartTableTitle {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.cartTablePrice {
+    width: 20%;
+    padding: 20px 0 20px 20px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.cartNumInputSelector {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #808080;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.cartNumInputfield {
+    width: 50px;
+    /* padding: 10px; */
+    font-size: 16px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.cartNumBtnDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.cartNumInpoutBtn {
+    background-color: transparent;
+    border: none;
+    font-size: 8px;
+    padding: 4px;
+    transition: 0.3s;
+}
+
+.cartNumInpoutBtn:hover {
+    border-radius: 5px;
+    background-color: #e7e7e7;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+.cartTotalContainer {
+    width: 80%;
+    margin-top: 50px;
+    border: 2px solid #808080;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cartTotalHeading {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 20px;
+}
+
+.subtotalDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1.5px solid #808080;
+    padding: 15px;
+}
+
+.totalBtnDiv {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin: 20px 0 10px 0;
+}
+
+@media (max-width: 500px) {
+    .cartTableTitle {
+        display: none;
+    }
+
+    .cartTableImage {
+        width: 70%;
+    }
+
+    .tavleheadingDiv {
+        padding: 10px;
+
+    }
+}
+
+.billingProductContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 20px 0;
+}
+
+.billingProductImageDiv {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.billingProductTitle {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.billingProductImage {
+    /* height: 50px; */
+    width: 50px;
+    margin-right: 20px;
+
+}
+
+.billingProductPrice {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.billingTotalContainer {
+    width: 90%;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.billingTotalDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1.5px solid #808080;
+
+}
+
+.anotherClass {
+    border: none;
+}
+
+.ant-radio-group {
+    display: grid;
+}
+
+.ant-radio-inner {
+    border-color: #000000 !important;
+    background-color: #f5f5f5 !important;
+}
+
+.ant-radio-inner::after {
+    background-color: #000000 !important;
+}
+
+.ant-radio-wrapper>span {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    margin-bottom: 10px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+}
+
+.ant-radio-wrapper>span {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+}
+
+.myOrderContainer {
+    margin: 150px 0;
+}
+
+.orderProductContainer {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 50px 0;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 20px 0;
+}
+
+.orderProductImageDiv {
+    width: fit-content;
+}
+
+.orderTitleDesDiv {
+    width: 50%;
+}
+
+.orderProductDes {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #7b7b7b;
+    margin-top: 10px;
+}
+
+.orderCheckMark {
+    width: fit-content;
+}
+
+.checkMark {
+    width: 40px;
+}
+
+.deleteButton {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    background-color: transparent;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s;
+    position: absolute;
+    overflow: hidden;
+    right: 11%;
+}
+
+.deleteButton svg {
+    width: 44%;
+}
+
+.deleteButton:hover {
+    background-color: #db4444;
+    overflow: visible;
+}
+
+.bin path {
+    transition: all 0.2s;
+}
+
+.deleteButton:hover .bin path {
+    fill: #fff;
+}
+
+.deleteButton:active {
+    transform: scale(0.98);
+}
+
+.tooltip {
+    --tooltip-color: rgb(41, 41, 41);
+    position: absolute;
+    top: -40px;
+    background-color: var(--tooltip-color);
+    color: white;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 8px 12px;
+    font-weight: 600;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.105);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.tooltip::before {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    transform: rotate(45deg);
+    content: "";
+    background-color: var(--tooltip-color);
+    bottom: -10%;
+}
+
+.deleteButton:hover .tooltip {
+    opacity: 1;
+}
+
+.removeFavProduct {
+    background-color: #db4444;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #f5f5f5;
+    transition: 0.3s;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.removeFavProduct:hover {
+    background-color: #b63838;
+}
+
+.removeFavProduct:active {
+    background-color: #3f0e0e;
+}

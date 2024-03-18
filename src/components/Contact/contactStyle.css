@@ -1,0 +1,145 @@
+.mainConatiner {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 150px 0 100px 0;
+    font-family: 'Poppins', sans-serif;
+    /* box-sizing: border-box; */
+}
+
+.firstContainer {
+    width: 20%;
+    background-color: white;
+    height: 500px;
+    padding: 20px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-direction: column;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+hr {
+    width: 100%;
+    background-color: #808080;
+    /* border: 20px; */
+}
+
+.firstContainerDiv {
+    width: 100%;
+}
+
+.iconTitle {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 15px 0 30px 0;
+}
+
+.tileDiv {
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+.spanDiv {
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.secContainer {
+    height: 500px;
+    width: 60%;
+    background-color: white;
+    padding: 20px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-left: 30px;
+}
+
+.inputFiledContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-radius: 5px;
+
+}
+
+.contactFormField {
+    border: none;
+    width: 28%;
+    padding: 15px;
+    border-radius: 3px;
+    background-color: #F5F5F5;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.textAreaContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    /* padding: 10px 50px; */
+}
+
+.textAreaTag {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    background-color: #F5F5F5;
+    padding: 15px;
+    outline: none;
+    border-radius: 5px;
+}
+
+.sendBtnContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin: 20px 0;
+}
+
+@media (max-width: 500px) {
+    .mainConatiner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 110px;
+    }
+
+    .firstContainer {
+        width: 80%;
+        margin-bottom: 30px;
+        height: 420px;
+    }
+
+    .secContainer {
+        width: 80%;
+        margin: 0;
+        height: 650px;
+    }
+
+    .inputFiledContainer{
+        width: 92%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .contactFormField{
+        width: 100%;
+        margin-top: 30px;
+    }
+}
